@@ -1,0 +1,50 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Instale la versión más reciente de PowerShell para obtener nuevas características y mejoras. https://aka.ms/PSWindows
+
+PS C:\Users\Ogada\Downloads\CursoIntroPython-main\Módulo 2 - Crear y administrar proyectos> py -m ven env
+C:\Users\Ogada\AppData\Local\Programs\Python\Python310\python.exe: No module named ven
+PS C:\Users\Ogada\Downloads\CursoIntroPython-main\Módulo 2 - Crear y administrar proyectos> py -m venv env
+
+PS C:\Users\Ogada\Downloads\CursoIntroPython-main\Módulo 2 - Crear y administrar proyectos> env/scripts/activate
+(env) PS C:\Users\Ogada\Downloads\CursoIntroPython-main\Módulo 2 - Crear y administrar proyectos> pip freeze
+(env) PS C:\Users\Ogada\Downloads\CursoIntroPython-main\Módulo 2 - Crear y administrar proyectos> pip install python - dateutil
+ERROR: Invalid requirement: '-'
+WARNING: You are using pip version 21.2.4; however, version 22.0.3 is available.
+You should consider upgrading via the 'C:\Users\Ogada\Downloads\CursoIntroPython-main\Módulo 2 - Crear y administrar proyectos\env\Scripts\python.exe -m pip install --upgrade pip' command.
+(env) PS C:\Users\Ogada\Downloads\CursoIntroPython-main\Módulo 2 - Crear y administrar proyectos> -m pip install --upgrade pip
+-m : El término '-m' no se reconoce como nombre de 
+un cmdlet, función, archivo de script o programa     
+ejecutable. Compruebe si escribió correctamente el   
+nombre o, si incluyó una ruta de acceso, compruebe   
+que dicha ruta es correcta e inténtelo de nuevo.     
+En línea: 1 Carácter: 1
++ -m pip install --upgrade pip
++ ~~
+    + CategoryInfo          : ObjectNotFound: (-m:S
+   tring) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundExcept
+   ion
+
+(env) PS C:\Users\Ogada\Downloads\CursoIntroPpython.exe -m pip install --upgrade pipar proyectos> -m pip install --upgrade pip
+Requirement already satisfied: pip in c:\users\ogada\downloads\cursointropython-main\módulo 2 - crear y adite-packages (21.2.4)
+Collecting pip
+  Using cached pip-22.0.3-py3-none-any.whl (2.1 MB)  
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 21.2.4
+    Uninstalling pip-21.2.4:
+      Successfully uninstalled pip-21.2.4
+Successfully installed pip-22.0.3
+(env) PS C:\Users\Ogada\Downloads\CursoIntroPython-main\Módulo 2 - Crear y administrar proyectos> pip install python - dateutil
+ERROR: Invalid requirement: '-'
+(env) PS C:\Users\Ogada\Downloads\CursoIntroPython-main\Módulo 2 - Crear y administrar proyectos> pip install python-dateutil  
+Collecting python-dateutil
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting six>=1.5
+in\Módulo 2 - Crear y administrar proyectos> pip freeze
+python-dateutil==2.8.2
+six==1.16.0
+(env) PS C:\Users\Ogada\Downloads\CursoIntroPython-main\Módulo 2 - Crear y administrar proyectos> deactivate
+PS C:\Users\Ogada\Downloads\CursoIntroPython-main\Módulo 2 - Crear y administrar proyectos>
